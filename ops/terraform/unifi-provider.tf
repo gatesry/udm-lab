@@ -15,7 +15,3 @@ provider "unifi" {
   api_url  = "https://192.168.1.1"
   allow_insecure = true
 }
-
-resource "unifi_site" "mysite" {
-  description = "default"
-}
