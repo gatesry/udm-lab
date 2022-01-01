@@ -19,6 +19,19 @@ resource "secret_resource" "unifi-api_url" {
   }
 }
 
+  terraform {
+  required_providers {
+    unifi = {
+      source = "paultyng/unifi"
+      version = "0.34.0"
+    }
+    secret = {
+      source = "schizofreny/secret"
+      version = "1.1.3"
+    }
+    
+  }
+}
 provider "unifi" {
   username = secret_resource.unifi-username.value
   password = secret_resource.unifi-password.value

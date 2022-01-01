@@ -21,3 +21,16 @@ provider "registry.terraform.io/paultyng/unifi" {
     "zh:c8ce1033816b6829dff5c868f9e82ab79cf1b22293296d909f77a7f73755eddb",
   ]
 }
+
+provider "registry.terraform.io/schizofreny/secret" {
+  version     = "1.1.3"
+  constraints = "1.1.3"
+  hashes = [
+    "h1:aSRtmm7IH/MZoPJEOxlJfhMbUMQINaJz6vYlBlSIT8w=",
+    "zh:1d4d52f02355f070ac2dab433042390de1f746d80b86842214dc070975625fe9",
+    "zh:24b55297f0754628e5ff6526a6c0b24e126aefb80edce9f67913b21182adcd20",
+    "zh:56d1be6e42cb30a669ba0a46f77fc58a7fb4c709598148ae68f6d284d68da412",
+    "zh:83732689420449b8982af222e7f61c98c98dd49dc76a86eccc6e689ef4661947",
+    "zh:a6de09f71b1c3c092269eba5953b61b4e396f0d78108b7223a0734e2857b3b3c",
+  ]
+}
