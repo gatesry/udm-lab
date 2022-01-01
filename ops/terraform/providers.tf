@@ -23,4 +23,5 @@ provider "unifi" {
   username = secret_resource.unifi-username.value
   password = secret_resource.unifi-password.value
   api_url  = secret_resource.unifi-api_url.value
+  allow_insecure = true
 }
