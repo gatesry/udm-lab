@@ -12,3 +12,7 @@ resource "unifi_network" "vlan" {
   dhcp_stop    = "10.0.0.254"
   dhcp_enabled = true
 }
+
+resource "unifi_site" "mysite" {
+  description = "default"
+}

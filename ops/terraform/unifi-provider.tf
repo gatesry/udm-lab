@@ -9,7 +9,8 @@ terraform {
 
 provider "unifi" {
   # Configuration options
-  allow_insecure = true
   username = "terraform"
-  password = "Testing1"
+  password = "Terraform1"
+  api_url  = "https://192.168.1.1"
+  allow_insecure = true
 }       
