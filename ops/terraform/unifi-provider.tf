@@ -6,6 +6,7 @@ terraform {
     }
   }
 }
+   
 
 provider "unifi" {
   # Configuration options
@@ -13,4 +14,8 @@ provider "unifi" {
   password = "Terraform1"
   api_url  = "https://192.168.1.1"
   allow_insecure = true
-}       
+}
+
+resource "unifi_site" "mysite" {
+  description = "default"
+}
