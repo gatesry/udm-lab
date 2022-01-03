@@ -1,7 +1,5 @@
- podman run -d --share net --network dns --restart always \
+ podman run -d --network unbound --restart always \
     --name unbound \
     -v "/mnt/data/unbound/:/opt/unbound/etc/unbound/ " \
-    --p 53:53/tcp \
-    --p 53:53/udp \
     --hostname unbound \
-    mvance/unbound:latest
+    klutchell/unbound:latest

@@ -1,17 +1,17 @@
 {
   "cniVersion": "0.4.0",
-  "name": "dns",
+  "name": "unbound",
   "plugins": [
     {
       "type": "macvlan",
       "mode": "bridge",
       "master": "br5",
-      "mac": "F0-7F-91-8B-C8-40",
+      "mac": "7C-94-1C-72-C6-CE",
       "ipam": {
         "type": "static",
         "addresses": [
           {
-            "address": "192.168.2.2/24",
+            "address": "192.168.2.3/24",
             "gateway": "192.168.2.1"
           }
         ],
