@@ -1,0 +1,24 @@
+{
+  "cniVersion": "0.4.0",
+  "name": "heimdoll",
+  "plugins": [
+    {
+      "type": "macvlan",
+      "mode": "bridge",
+      "master": "br5",
+      "mac": "7C-94-1C-72-A6-N2",
+      "ipam": {
+        "type": "static",
+        "addresses": [
+          {
+            "address": "192.168.2.5/24",
+            "gateway": "192.168.2.1"
+          }
+        ],
+        "routes": [
+          {"dst": "0.0.0.0/0"}
+        ]
+      }
+    }
+  ]
+}

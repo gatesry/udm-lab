@@ -1,0 +1,10 @@
+podman run -d \
+  --name=heimdall \
+  -e PUID=1000 \
+  -e PGID=1000 \
+  -e TZ=America/Chicago \
+  -p 80:80 \
+  -p 443:443 \
+  -v /mnt/data/heimdoll/config:/config \
+  --restart always \
+  lscr.io/linuxserver/heimdall

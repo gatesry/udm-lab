@@ -1,0 +1,9 @@
+podman run -d \
+ --systemd=false \
+ --network nginx \
+ --name nginx \
+ -e TZ=America/Chicago \
+ -e DB_SQLITE_FILE="/data/database.sqlite" \
+ -v "/mnt/data/proxymanager/data:/data" \
+ -v "/mnt/data/proxymanager/letsencrypt:/etc/letsencrypt" \
+ jc21/nginx-proxy-manager:latest
