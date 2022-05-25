@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 9 Mar 2022 11:00:00 +0100
+Source: udm-kernel-tools
+Binary: udm-kernel-tools
+Architecture: source arm64
+Version: 1.1.4
+Distribution: stable
+Urgency: medium
+Maintainer: Fabian Mastenbroek <mail.fabianm@gmail.com>
+Changed-By: Fabian Mastenbroek <mail.fabianm@gmail.com>
+Description:
+ udm-kernel-tools - Tools for bootstrapping custom kernels on the UniFi Dream Machine
+Changes:
+ udm-kernel-tools (1.1.4) stable; urgency=medium
+ .
+   * Fix issue with incompatible WireGuard module
+Checksums-Sha1:
+ eb2f379dc85bb8725089069066fd29aa6dcf0aee 766 udm-kernel-tools_1.1.4.dsc
+ e257f8bc4a60afdc455efc296bdad40100b46c4c 56548 udm-kernel-tools_1.1.4.tar.xz
+ 4b2df143984a77fb1d300b9d3610162920e964e0 4568 udm-kernel-tools-dbgsym_1.1.4_arm64.ddeb
+ 740ec9b7a0e01d4a675fe17b2e93bf543034af52 6986 udm-kernel-tools_1.1.4_arm64.buildinfo
+ db49738b3b589f6e8efcffeee63b80dd94beea59 41076 udm-kernel-tools_1.1.4_arm64.deb
+Checksums-Sha256:
+ 919a780a8b424d9663748cf175d468976bab1924518eae1face939c1d85122ff 766 udm-kernel-tools_1.1.4.dsc
+ 8594fac9f9e2cf21b9d76d0afea1f8cf1da410785bded4dd0c119b1b6d52f076 56548 udm-kernel-tools_1.1.4.tar.xz
+ 6f1f115b9e181b4ce5ac9746c281bdc0adce393cbee9af8fe6d6610b684b9810 4568 udm-kernel-tools-dbgsym_1.1.4_arm64.ddeb
+ bbb7beac5724a1250e752fada684254ffc4ea43e4a36641a6bc6afa7af1ed98c 6986 udm-kernel-tools_1.1.4_arm64.buildinfo
+ 0c54f7e98de02354f4e46af7e62f3ebef9f33d0aa724f879850a57b210cf406d 41076 udm-kernel-tools_1.1.4_arm64.deb
+Files:
+ c87d19fdfc5d64876f30da6a936eecda 766 devel optional udm-kernel-tools_1.1.4.dsc
+ 7e1c448bef9572c5e72e3a6fb4752e96 56548 devel optional udm-kernel-tools_1.1.4.tar.xz
+ 58f92d65a02ed4226594832ef079ab4f 4568 debug optional udm-kernel-tools-dbgsym_1.1.4_arm64.ddeb
+ 8e3989a6532da170fe1b22e8ff0667f8 6986 devel optional udm-kernel-tools_1.1.4_arm64.buildinfo
+ 5ec80be4be2a890476b4f5e1e11ad333 41076 admin optional udm-kernel-tools_1.1.4_arm64.deb
